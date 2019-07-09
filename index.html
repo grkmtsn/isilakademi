@@ -15,14 +15,28 @@
       <header>
         <nav class="main-menu">
           <div>
-            <img width="25" src="./assets/img/logo.svg"/>
+            <img width="25" src="./assets/img/logo.svg" />
           </div>
-          <ul>
+          <ul class="nav">
             <li>
               <a href="#">Anasayfa</a>
             </li>
-            <li>
+            <li class="dropdown">
               <a href="#">Kurslar</a>
+              <ul>
+                <li><a href="#">Dois Um</a></li>
+                <li><a href="#">Dois Dois</a></li>
+                <li><a href="#">Dois Tres</a></li>
+                <li class="dropdown">
+                  <a href="#">Dois Tres Quatro</a>
+                  <ul>
+                    <li><a href="#">Dois Tres Quatro Um</a></li>
+                    <li><a href="#">Dois Tres Quatro Dois</a></li>
+                    <li><a href="#">Dois Tres Quatro Tres</a></li>
+                    <li><a href="#">Dois Tres Quatro Quatro</a></li>
+                  </ul>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="#">Hakkımızda</a>
@@ -35,23 +49,30 @@
       </header>
       <section id="intro">
         <div class="intro-wrapper">
-          <div class="text">
-            <div>
-              <h4>LOREM IPSUM DOLOR</h4>
-              <div class="line-seperator"></div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-                est magni itaque alias recusandae obcaecati, consequuntur
-                ducimus dolor quos ut ad corporis nulla cupiditate doloremque
-                vero, suscipit facere sapiente distinctio.
-              </p>
+          <div class="row">
+            <div class="col-5">
+              <div class="text">
+                <div>
+                  <h4>LOREM IPSUM DOLOR</h4>
+                  <div class="line-seperator"></div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quia, est magni itaque alias recusandae obcaecati,
+                    consequuntur ducimus dolor quos ut ad corporis nulla
+                    cupiditate doloremque vero, suscipit facere sapiente
+                    distinctio.
+                  </p>
+                </div>
+                <div class="intro-button">
+                  <a href="#" class="btn">KURSLARIMIZ</a>
+                </div>
+              </div>
             </div>
-            <div class="intro-button">
-              <a href="#" class="btn">KURSLARIMIZ</a>
+            <div class="col-7">
+              <div class="image">
+                <img src="./assets/img/books.svg" alt="Işıl Akademi" />
+              </div>
             </div>
-          </div>
-          <div class="image">
-            <img src="./assets/img/books.svg" alt="Işıl Akademi" />
           </div>
           <div class="lines">
             <div class="img"></div>
@@ -202,16 +223,19 @@
         </div>
       </section>
       <section>
-        <div class="row">
+        <div class="row v-align">
           <div class="col-6">
-            <img src="./assets/img/undraw_travel_plans_li01.svg" alt="Işıl Akademi">
+            <img
+              src="./assets/img/undraw_travel_plans_li01.svg"
+              alt="Işıl Akademi"
+            />
           </div>
           <div class="col-6">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Fuga repellendus numquam ipsa accusamus.
-              Alias ea aspernatur obcaecati est cumque? 
-              Commodi consequatur quibusdam, voluptates voluptas sapiente tenetur quam perspiciatis. Temporibus, nihil.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
+              repellendus numquam ipsa accusamus. Alias ea aspernatur obcaecati
+              est cumque? Commodi consequatur quibusdam, voluptates voluptas
+              sapiente tenetur quam perspiciatis. Temporibus, nihil.
             </p>
           </div>
         </div>
